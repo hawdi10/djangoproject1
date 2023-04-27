@@ -7,3 +7,6 @@ class person(models.Model):
     img=models.ImageField(verbose_name="عکس")
     age=models.IntegerField(verbose_name="سن")
     date=models.DateField(verbose_name="عکس")
+    
+    def __str__(self):
+        return f'{self.name}'
