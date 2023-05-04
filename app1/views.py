@@ -5,4 +5,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return render(request,'page.html')
+    my_dict={
+        "title":"salaaaam",
+        "contex":"ssadadsa addasf afsfs"
+    }
+    return render(request,'page.html',context={"test":my_dict})
