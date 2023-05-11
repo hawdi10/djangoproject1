@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Simple Chat UI</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'>
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -140,41 +133,3 @@ body {
     height: 35px;
   }
 }
-</style>
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="container">
-    <div class="header">
-        <div class="logo">Chat UI</div>
-        <div class="subtext">Connect to people.</div>
-    </div>
-    <div class="contact-info">
-        <div class="avatar">
-            <img src="https://via.placeholder.com/75" alt="Avatar">
-        </div>
-        <div class="user-info">
-            copperX
-        </div>
-    </div>
-    <div class="chat-box">
-        <div class="message primary">Lorem ipsum dolor sit amet. <div class="timestamp">02:11</div></div>
-        <div class="message secondary">Lorem ipsum dolor sit amet. <div class="timestamp">02:11</div></div>
-        <div class="message primary">Lorem ipsum dolor sit amet. <div class="timestamp">02:11</div></div>
-        <div class="message primary">Lorem ipsum dolor sit amet. <div class="timestamp">02:11</div></div>
-        <div class="message secondary">Lorem ipsum dolor sit amet. <div class="timestamp">02:11</div></div>
-        <div class="message secondary">Lorem ipsum dolor sit amet. <div class="timestamp">02:11</div></div>
-        <div class="message primary">Lorem ipsum dolor sit amet. <div class="timestamp">02:11</div></div>
-        <div class="message primary">Lorem ipsum dolor sit amet. <div class="timestamp">02:11</div></div>
-        <div class="message secondary">Lorem ipsum dolor sit amet. <div class="timestamp">02:11</div></div>
-        <div class="message secondary">Lorem ipsum dolor sit amet. <div class="timestamp">02:11</div></div>
-    </div>
-    <div class="input-area">
-        <input type="text" name="" id="">
-        <button><i class="fas fa-paper-plane"></i></button>
-    </div>
-</div>
-<!-- partial -->
-
-</body>
-</html>
